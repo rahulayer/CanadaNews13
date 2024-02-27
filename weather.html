@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        
+        function updateDateTime() {
+          
+          const now = new Date();
+  
+          
+          const currentDateTime = now.toLocaleString();
+  
+          
+          document.querySelector('#datetime').textContent = currentDateTime;
+        }
+  
+        
+        setInterval(updateDateTime, 1000);
+      </script>
+    <title>CanadaNews13</title>
+    <style>
+     body{
+    background-image: url("/image/img3.jpeg");
+
+     }
+
+    </style>
+    
+</head>
+
+<body>
+    <header class="header">
+        
+        <a href="index.html" class="logo"><i class="fa fa-newspaper-o" aria-hidden="true"></i>CanadaNews13</a>
+         <div class="bars"><i class="fa fa-bars fa-4x" aria-hidden="true"></i></div>
+         
+          <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="topstories.html">Topstories</a></li>
+                <li><a href="weather.html">Weather</a></li>
+                <li><a href="editors.html">Editors</a></li>
+                <li><a href="aboutus.html">Aboutus</a></li>
+                <li><a href="login.html">Login</a></li>
+
+            </ul>
+          </nav>
+    </header>
+    <br>
+    <main>
+        <div class="weathers"> 
+        <div class="weather-container">
+            <div class="city"><i class="fa fa-map-marker" aria-hidden="true"></i> Scarborough</div>
+            <br>
+            <div class="feather"> 
+              <div> <i class="fa fa-thermometer-quarter" aria-hidden="true"></i> -4°C</div> 
+              <div> <i class="fa fa-calendar" aria-hidden="true"></i> 2/6/2024</div>
+              <div><i class="fa fa-snowflake-o" aria-hidden="true"> Snow</i></div>  
+            </div>
+        </div>
+            
+        </div>
+        <div class="">
+            
+            <div class="weather1" >
+            <img src="image/img3.jpeg" alt="News Image">
+            <h2>Temperatures in Toronto could near double digits Friday</h2>
+            <p>Toronto’s mild winter will continue this week before the temperature really warms up on Friday.</p>
+                <a href="weathernews.html" class="read-more">Read More</a>
+            </div>
+            <div class="weather1">
+                <img src="image/img3.jpeg" alt="News Image">
+                <h2>Temperatures in Toronto could near double digits Friday</h2>
+                <p>Toronto’s mild winter will continue this week before the temperature really warms up on Friday.</p>
+                <a href="weathernews.html" class="read-more">Read More</a>
+                </div>
+                <div class="weather1">
+                    <img src="image/img3.jpeg" alt="News Image">
+                    <h2>Temperatures in Toronto could near double digits Friday</h2>
+                    <p>Toronto’s mild winter will continue this week before the temperature really warms up on Friday.</p>
+                    <a href="weathernews.html" class="read-more">Read More</a>
+                    </div>
+                    <div class="weather1" style="margin-bottom: 80px;" >
+                        <img src="image/img3.jpeg" alt="News Image">
+                        <h2>Temperatures in Toronto could near double digits Friday</h2>
+                        <p>Toronto’s mild winter will continue this week before the temperature really warms up on Friday.</p>
+                        <a href="weathernews.html" class="read-more">Read More</a>
+                        </div>
+        </div>
+        
+        
+        
+    </main>
+        <footer>
+        <p>&copy;  2024  <i class="fa fa-newspaper-o" aria-hidden="true"></i> Canada News 13. All rights reserved.</p>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+
+</html>

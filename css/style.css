@@ -10,20 +10,20 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-image: url("/image/mainbg.jpg");
+    background-image: url("/CanadaNews13/image/mainbg.jpg");
     background-color: #cccccc;
    }
    footer{
-    background-image: url("/image/mainbg.jpg");
+    background-image: url("/CanadaNews13/image/mainbg.jpg");
     background-color: #cccccc;
    }
    header{
-    background-image: url("/image/mainbg.jpg");
+    background-image: url("/CanadaNews13/image/mainbg.jpg");
     background-color: #cccccc;
    }
    .header .logo{
     font-size: 3.5rem;
-    background-image: url("/image/mainbg.jpg");
+    background-image: url("/CanadaNews13/image/mainbg.jpg");
            background-color: #cccccc;
     
    }

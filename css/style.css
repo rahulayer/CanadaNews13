@@ -107,7 +107,6 @@ color: aliceblue;
 .news{
     margin-top: 80px;
     margin-bottom: 5px;
-    
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 5px;
@@ -125,7 +124,6 @@ color: aliceblue;
     cursor: pointer;
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 28px;
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 5px;
@@ -141,7 +139,6 @@ color: aliceblue;
 }
 .news2{
     margin-bottom: 100px;
-    margin-left: 28px;
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 5px;
